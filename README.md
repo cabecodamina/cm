@@ -1,0 +1,147 @@
+[cabecodamina.html](https://github.com/user-attachments/files/24424987/cabecodamina.html)
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cabeço da Mina – Azeite Virgem Extra</title>
+  <style>
+    /* Reset e fontes */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      background: linear-gradient(to bottom, #f8f5f0, #fff9f0);
+      color: #4a3f2f;
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+    header {
+      padding: 30px 20px;
+      text-align: center;
+      background: rgba(255,255,255,0.95);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    header img {
+      max-width: 120px;
+    }
+
+    /* Seção hero */
+    .hero {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 50px 20px;
+      background: url('azeite-fundo-das-vinhas.jpg') center/cover no-repeat;
+      color: #fff;
+      min-height: 70vh;
+      position: relative;
+    }
+    .hero::after {
+      content: '';
+      position: absolute;
+      top:0; left:0; right:0; bottom:0;
+      background: rgba(0,0,0,0.4);
+    }
+    .hero-content {
+      position: relative;
+      z-index: 1;
+      max-width: 600px;
+    }
+    .hero h1 {
+      font-size: 2rem;
+      margin-bottom: 15px;
+      font-weight: 700;
+      text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+    }
+    .hero p {
+      font-size: 1.1rem;
+      margin-bottom: 25px;
+      text-shadow: 1px 1px 4px rgba(0,0,0,0.4);
+    }
+    .button {
+      display: inline-block;
+      padding: 12px 30px;
+      background-color: #8c6e4a;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 25px;
+      font-weight: bold;
+      transition: all 0.3s;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+    .button:hover {
+      background-color: #6b5237;
+      transform: translateY(-2px);
+      box-shadow: 0 6px 12px rgba(0,0,0,0.25);
+    }
+
+    /* Seção História / Informação */
+    .story {
+      padding: 60px 20px;
+      max-width: 800px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .story h2 {
+      font-size: 1.6rem;
+      margin-bottom: 20px;
+      color: #4a3f2f;
+    }
+    .story p {
+      font-size: 1rem;
+      margin-bottom: 15px;
+    }
+    .story img {
+      max-width: 100%;
+      margin-top: 30px;
+      border-radius: 10px;
+    }
+
+    /* Footer */
+    footer {
+      padding: 20px 10px;
+      text-align: center;
+      font-size: 0.85rem;
+      color: #888;
+      background: rgba(255,255,255,0.95);
+    }
+
+    /* Responsivo */
+    @media (max-width: 600px){
+      .hero h1 { font-size: 1.6rem; }
+      .hero p { font-size: 1rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="logo-cm.png" alt="Cabeço da Mina">
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Cabeço da Mina – Azeite Virgem Extra</h1>
+      <p>Do coração do Fundo das Vinhas, nasce este azeite único, fruto de azeitonas selecionadas à mão nos olivais centenários do Vale da Vilariça.</p>
+      <a href="#story" class="button">Descubra o nosso olival</a>
+    </div>
+  </section>
+
+  <section class="story" id="story">
+    <h2>A História do Nosso Azeite</h2>
+    <p>Produzido em Santa Comba da Vilariça, cada gota reflete o cuidado, a tradição e a paixão pelo azeite. Os olivais do Fundo das Vinhas são cultivados de forma sustentável, garantindo a qualidade e autenticidade que distinguem o Cabeço da Mina.</p>
+    <p>Este azeite premium é perfeito para valorizar os seus pratos e partilhar momentos de sabor genuíno.</p>
+    <img src="oliveiras.jpg" alt="Olival Fundo das Vinhas">
+  </section>
+
+  <footer>
+    &copy; 2026 Cabeço da Mina – Todos os direitos reservados
+  </footer>
+
+</body>
+</html>
